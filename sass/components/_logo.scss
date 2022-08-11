@@ -1,0 +1,24 @@
+@import "../utils/variables.scss";
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+
+  &__first-word {
+    color: getColor("main-color");
+  }
+
+  &__secound-word {
+    color: getColor("text");
+  }
+
+  &__third-word {
+    color: getColor("secound-text");
+  }
+}

@@ -53,10 +53,7 @@ body {
   display: flex;
   fill: var(--info-color);
 }
-.base-img {
-  display: block;
-  object-fit: cover;
-}
+
 /* ====================HEADER-START==================== */
 
 .header {
@@ -331,6 +328,10 @@ body {
   fill: var(--focus-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.team__img {
+  display: block;
+  object-fit: cover;
+}
 
 /* ----------TEAM-END---------- */
 
@@ -453,7 +454,7 @@ body {
   color: var(--secound-text);
   margin-left: 78px;
 }
-.newsletter > p {
+.newsletter__title {
   font-weight: 700;
   line-height: 1.14;
   margin-bottom: 20px;
