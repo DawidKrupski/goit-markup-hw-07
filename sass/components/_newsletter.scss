@@ -1,5 +1,5 @@
 .newsletter {
-  color: getColor("secound-text");
+  color: getColor("second-text");
   margin-left: 78px;
 
   &__title {
@@ -15,7 +15,7 @@
   }
 
   &__input {
-    color: getColor("secound-text");
+    color: getColor("second-text");
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -39,7 +39,7 @@
     border: 0px;
     width: 200px;
     height: 50px;
-    color: getColor("secound-text");
+    color: getColor("second-text");
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;

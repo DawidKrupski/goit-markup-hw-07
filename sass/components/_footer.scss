@@ -22,13 +22,13 @@
   &__contact {
     flex-direction: column;
     gap: 9px;
-    color: getColor("secound-text");
+    color: getColor("second-text");
     font-style: normal;
     display: flex;
   }
 
   &__address {
-    color: getColor("secound-text");
+    color: getColor("second-text");
     font-style: normal;
     display: flex;
   }
@@ -59,7 +59,7 @@
 .join {
   display: flex;
   flex-direction: column;
-  color: getColor("secound-text");
+  color: getColor("second-text");
 
   &__label {
     font-weight: 700;

@@ -55,7 +55,8 @@ html {
   color: #757575;
   text-decoration: none;
 }
-.header__mail:hover, .header__mail:focus {
+.header__mail:hover,
+.header__mail:focus {
   color: #2196f3;
   fill: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -68,7 +69,8 @@ html {
   text-decoration: none;
   margin-left: 30px;
 }
-.header__telephone:hover, .header__telephone:focus {
+.header__telephone:hover,
+.header__telephone:focus {
   color: #2196f3;
   fill: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -108,7 +110,8 @@ html {
   color: #212121;
   position: relative;
 }
-.nav__link:hover, .nav__link:focus {
+.nav__link:hover,
+.nav__link:focus {
   color: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -131,7 +134,11 @@ html {
   background: #2f303a;
   margin-bottom: 94px;
   padding: 200px 0;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background-image.jpg);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/background-image.jpg);
 }
 .slogan__label {
   font-weight: 900;
@@ -261,7 +268,8 @@ html {
   text-align: center;
 }
 .team-list__element {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -280,7 +288,8 @@ html {
   border: 0px solid #f5f4fa;
   border-radius: 50%;
 }
-.team-icons__link:hover, .team-icons__link:focus {
+.team-icons__link:hover,
+.team-icons__link:focus {
   background-color: #2196f3;
   fill: #ffffff;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -310,7 +319,8 @@ html {
   width: 170px;
   height: 92px;
 }
-.clients__link:hover, .clients__link:focus {
+.clients__link:hover,
+.clients__link:focus {
   outline-color: #2196f3;
   fill: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -350,7 +360,8 @@ html {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-.footer__mail:hover, .footer__mail:focus {
+.footer__mail:hover,
+.footer__mail:focus {
   color: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -358,7 +369,8 @@ html {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-.footer__telephone:hover, .footer__telephone:focus {
+.footer__telephone:hover,
+.footer__telephone:focus {
   color: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -389,7 +401,8 @@ html {
   background-color: rgba(255, 255, 255, 0.1);
   fill: #eeeeee;
 }
-.join__icon:hover, .join__icon:focus {
+.join__icon:hover,
+.join__icon:focus {
   background-color: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -418,7 +431,8 @@ html {
   background: rgba(255, 255, 255, 0);
   text-indent: 16px;
 }
-.newsletter__input:hover, .newsletter__input:focus {
+.newsletter__input:hover,
+.newsletter__input:focus {
   outline: none;
   border-color: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -465,11 +479,13 @@ html {
   padding: 6px 22px;
   background: #f5f4fa;
 }
-.portfolio__button:hover, .portfolio__button:focus {
+.portfolio__button:hover,
+.portfolio__button:focus {
   color: #ffffff;
   background: #2196f3;
   cursor: pointer;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -488,7 +504,8 @@ html {
   margin: 0px;
 }
 .experience__link:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .experience__header {
@@ -556,7 +573,8 @@ html {
   min-height: 581px;
   top: 221px;
   background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
 .backdrop__close-modal {
@@ -570,7 +588,8 @@ html {
   border-radius: 50%;
   cursor: pointer;
 }
-.backdrop__close-modal:hover, .backdrop__close-modal:focus {
+.backdrop__close-modal:hover,
+.backdrop__close-modal:focus {
   background-color: #2196f3;
   color: #ffffff;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -608,12 +627,14 @@ html {
   border-radius: 4px;
   padding: 0 20px 0 40px;
 }
-.order-form__input:hover, .order-form__input:focus {
+.order-form__input:hover,
+.order-form__input:focus {
   outline: none;
   border-color: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.order-form__input:hover ~ .order-form__icons, .order-form__input:focus ~ .order-form__icons {
+.order-form__input:hover ~ .order-form__icons,
+.order-form__input:focus ~ .order-form__icons {
   fill: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -625,7 +646,8 @@ html {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
-.order-form__comment:hover, .order-form__comment:focus {
+.order-form__comment:hover,
+.order-form__comment:focus {
   outline: none;
   border-color: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -655,7 +677,7 @@ html {
   text-decoration: none;
   color: #2196f3;
 }
-.rules__input[type=checkbox] {
+.rules__input[type="checkbox"] {
   appearance: none;
   -webkit-appearance: none;
   width: 16px;
@@ -663,7 +685,7 @@ html {
   border: 2px solid black;
   border-radius: 2px;
 }
-.rules__input[type=checkbox]:checked {
+.rules__input[type="checkbox"]:checked {
   background-color: #2196f3;
   border-color: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -691,4 +713,4 @@ html {
   border: 0px;
   cursor: pointer;
   margin-top: 30px;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
